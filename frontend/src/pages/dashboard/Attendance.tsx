@@ -109,6 +109,8 @@ export default function Attendance() {
               </div>
             </div>
           )}
+          <br />
+          {selectedFile && <button className="w-full bg-indigo-600 p-2 rounded-lg text-white">Submit</button>}
         </div>
       </div>
 
